@@ -1,295 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Huy Tran — Software Developer</title>
-    <meta
-      name="description"
-      content="Minimal, motion‑focused portfolio for Huy Tran — Software Developer."
-    />
-    <link rel="stylesheet" href="./assets/css/custom.css" />
-  </head>
-  <body>
-    <header class="container" style="padding: 20px 0 0">
-      <nav
-        style="
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          gap: 12px;
-          padding: 10px 0;
-        "
-      >
-        <a href="#" style="font-weight: 800; letter-spacing: 0.4px">Huy Tran</a>
-        <div style="display: flex; gap: 14px; align-items: center">
-          <a href="#projects">Projects</a>
-          <a href="#experience">Experience</a>
-          <a href="#skills">Skills</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </nav>
-    </header>
-
-    <main>
-      <!-- Hero -->
-      <section class="hero">
-        <div class="container hero-wrap">
-          <div class="eyebrow">Software Developer</div>
-          <h1 class="hero-title">
-            <span
-              id="typed"
-              class="type-cursor"
-              data-text="Hey there, I’m Huy."
-            ></span>
-          </h1>
-          <p class="hero-lede">
-            I build fast, accessible interfaces and pragmatic backends. I care
-            about clean architecture, performance budgets, and motion that
-            guides—not distracts.
-          </p>
-          <div class="cta">
-            <a class="btn btn-primary" href="#projects">See projects</a>
-            <a class="btn" href="#contact">Get in touch</a>
-          </div>
-        </div>
-      </section>
-
-      <!-- Projects -->
-      <section id="projects">
-        <div class="container">
-          <h2 class="section-title">Selected Projects</h2>
-          <p class="section-subtitle">
-            Case studies that show impact, with clean code and measurable
-            results.
-          </p>
-
-          <div class="projects-grid">
-            <article class="card project">
-              <div class="project-cover"></div>
-              <div class="project-body">
-                <h3 class="project-title">Tech News App</h3>
-                <div class="project-meta">
-                  React Native · SQLite · Node/Express
-                </div>
-                <p>
-                  Offline-first news reader with AI summaries and a local sync
-                  engine. Achieved <strong>~98 Lighthouse PWA</strong> score on
-                  mobile.
-                </p>
-                <div class="project-actions">
-                  <a class="tag" href="#">Case study</a>
-                  <a class="tag" href="#">GitHub</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="card project">
-              <div class="project-cover"></div>
-              <div class="project-body">
-                <h3 class="project-title">Snap Budget</h3>
-                <div class="project-meta">C# · ASP.NET · OCR</div>
-                <p>
-                  Receipt‑scanning budgeting tool. Reduced manual entry time by
-                  <strong>70%</strong> via background parsing and category
-                  rules.
-                </p>
-                <div class="project-actions">
-                  <a class="tag" href="#">Case study</a>
-                  <a class="tag" href="#">GitHub</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="card project">
-              <div class="project-cover"></div>
-              <div class="project-body">
-                <h3 class="project-title">Portfolio Engine</h3>
-                <div class="project-meta">HTML · CSS · MDX‑like content</div>
-                <p>
-                  Static‑first portfolio with content slots and a11y baked‑in.
-                  Subtle motion, strong typography, and zero JS on the landing
-                  page.
-                </p>
-                <div class="project-actions">
-                  <a class="tag" href="#">Case study</a>
-                  <a class="tag" href="#">GitHub</a>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- Experience Timeline -->
-      <section id="experience">
-        <div class="container">
-          <h2 class="section-title">Experience</h2>
-          <p class="section-subtitle">
-            A concise timeline—hover or tab into items to see details.
-          </p>
-
-          <div class="timeline" role="list">
-            <div class="t-item" role="listitem" tabindex="0">
-              <div class="t-dot" aria-hidden="true"></div>
-              <div class="t-card">
-                <p class="t-role">
-                  Junior Software Developer · The Training Associates
-                </p>
-                <p class="t-meta">Jul 2025 — Present · Marlborough, MA</p>
-                <ul class="t-list">
-                  <li>
-                    Shipped UI fixes and feature toggles in a Microsoft‑stack
-                    codebase (C#, .NET 4.8.1, SQL Server).
-                  </li>
-                  <li>
-                    Improved banner logic to remove flicker via tri‑state
-                    rendering.
-                  </li>
-                  <li>
-                    Collaborated on DB change tracking and deployment workflows.
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="t-item" role="listitem" tabindex="0">
-              <div class="t-dot" aria-hidden="true"></div>
-              <div class="t-card">
-                <p class="t-role">Software Engineering Intern · GDMS</p>
-                <p class="t-meta">2024 — 2025</p>
-                <ul class="t-list">
-                  <li>
-                    Built tooling in Python/C++ and delivered secure internal
-                    apps.
-                  </li>
-                  <li>
-                    Authored docs and automated tests to stabilize releases.
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="t-item" role="listitem" tabindex="0">
-              <div class="t-dot" aria-hidden="true"></div>
-              <div class="t-card">
-                <p class="t-role">B.S. Computer Engineering · UMass Amherst</p>
-                <p class="t-meta">2019 — 2023</p>
-                <ul class="t-list">
-                  <li>
-                    Strong foundation in algorithms, systems, and UI
-                    engineering.
-                  </li>
-                  <li>Led side projects focused on performance and UX.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Skills -->
-      <section id="skills">
-        <div class="container">
-          <h2 class="section-title">Skills</h2>
-          <p class="section-subtitle">Capabilities first; tools second.</p>
-          <div class="skills">
-            <div class="card skill">
-              <span class="dot"></span>Frontend architecture
-            </div>
-            <div class="card skill">
-              <span class="dot"></span>Performance budgets
-            </div>
-            <div class="card skill">
-              <span class="dot"></span>Accessibility (WCAG)
-            </div>
-            <div class="card skill">
-              <span class="dot"></span>Clean Architecture
-            </div>
-            <div class="card skill">
-              <span class="dot"></span>TypeScript, React
-            </div>
-            <div class="card skill"><span class="dot"></span>C#, .NET</div>
-            <div class="card skill"><span class="dot"></span>SQL Server</div>
-            <div class="card skill"><span class="dot"></span>Node/Express</div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Contact -->
-      <section id="contact">
-        <div class="container">
-          <h2 class="section-title">Get in touch</h2>
-          <p class="section-subtitle">
-            Open to collaborations and new opportunities.
-          </p>
-          <div
-            class="card"
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Huy Tran — Software Developer</title>
+        <meta
+            name="description"
+            content="Minimal, motion-focused portfolio for Huy Tran — Software Developer."
+        />
+        <link rel="stylesheet" href="./assets/css/custom.css" />
+    </head>
+    <body>
+        <!-- Particle Canvas -->
+        <canvas
+            id="particles-bg"
             style="
-              padding: 18px;
-              display: flex;
-              gap: 14px;
-              flex-wrap: wrap;
-              align-items: center;
-              justify-content: space-between;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100vw;
+                height: 100vh;
+                z-index: -1;
+                pointer-events: none;
             "
-          >
-            <div>
-              <strong>Email</strong><br />
-              <a href="mailto:huy@example.com">huy@example.com</a>
-            </div>
-            <div>
-              <strong>Links</strong><br />
-              <a href="#">GitHub</a> · <a href="#">LinkedIn</a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+        ></canvas>
+        <header class="container site-header">
+            <nav class="site-nav">
+                <a href="#" class="brand">Huy Tran</a>
+                <div class="nav-links">
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </header>
 
-    <footer>
-      <div class="container">© <span id="year"></span> Huy Tran</div>
-    </footer>
+        <main>
+            <!-- Hero -->
+            <section class="hero">
+                <div class="container hero-wrap">
+                    <div class="eyebrow">Software Developer</div>
+                    <h1 class="hero-title">
+                        <span id="typed" class="type-cursor" data-text="Hey there, I’m Huy."></span>
+                    </h1>
+                    <p class="hero-lede">
+                        I build fast, accessible interfaces and pragmatic backends. I care about
+                        clean architecture, performance budgets, and motion that guides—not
+                        distracts.
+                    </p>
+                </div>
+            </section>
 
-    <script>
-      // Update year and run first-load typing effect (respects reduced motion).
-      document.getElementById("year").textContent = new Date().getFullYear();
+            <!-- Projects -->
+            <section id="projects">
+                <div class="container">
+                    <h2 class="section-title">Selected Projects</h2>
+                    <p class="section-subtitle">
+                        Case studies that show impact, with clean code and measurable results.
+                    </p>
 
-      (function () {
-        var key = "seenTypingV1";
-        var el = document.getElementById("typed");
-        if (!el) return;
-        var full = el.getAttribute("data-text") || "";
-        var reduce = window.matchMedia(
-          "(prefers-reduced-motion: reduce)"
-        ).matches;
+                    <div class="projects-grid">
+                        <article class="card project">
+                            <div class="project-cover"></div>
+                            <div class="project-body">
+                                <h3 class="project-title">Tech News App</h3>
+                                <div class="project-meta">React Native · SQLite · Node/Express</div>
+                                <p>
+                                    Offline-first news reader with AI summaries and a local sync
+                                    engine. Achieved <strong>~98 Lighthouse PWA</strong> score on
+                                    mobile.
+                                </p>
+                                <div class="project-actions">
+                                    <a class="tag" href="#">Case study</a>
+                                    <a class="tag" href="#">GitHub</a>
+                                </div>
+                            </div>
+                        </article>
 
-        function showText() {
-          el.textContent = full;
-          el.classList.remove("type-cursor"); // remove caret after reveal
-        }
+                        <article class="card project">
+                            <div class="project-cover"></div>
+                            <div class="project-body">
+                                <h3 class="project-title">Snap Budget</h3>
+                                <div class="project-meta">C# · ASP.NET · OCR</div>
+                                <p>
+                                    Receipt-scanning budgeting tool. Reduced manual entry time by
+                                    <strong>70%</strong> via background parsing and category rules.
+                                </p>
+                                <div class="project-actions">
+                                    <a class="tag" href="#">Case study</a>
+                                    <a class="tag" href="#">GitHub</a>
+                                </div>
+                            </div>
+                        </article>
 
-        if (localStorage.getItem(key) || reduce) {
-          showText();
-          return;
-        }
+                        <article class="card project">
+                            <div class="project-cover"></div>
+                            <div class="project-body">
+                                <h3 class="project-title">Portfolio Engine</h3>
+                                <div class="project-meta">HTML · CSS · MDX-like content</div>
+                                <p>
+                                    Static-first portfolio with content slots and a11y baked-in.
+                                    Subtle motion, strong typography, and zero JS on the landing
+                                    page.
+                                </p>
+                                <div class="project-actions">
+                                    <a class="tag" href="#">Case study</a>
+                                    <a class="tag" href="#">GitHub</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
 
-        var i = 0;
-        var speed = 28; // ms per char after the first few
+            <!-- Experience Timeline -->
+            <section id="experience">
+                <div class="container">
+                    <h2 class="section-title">Experience</h2>
+                    <p class="section-subtitle">
+                        A concise timeline—hover or tab into items to see details.
+                    </p>
 
-        function step() {
-          i++;
-          el.textContent = full.slice(0, i);
-          if (i < full.length) {
-            setTimeout(step, i < 8 ? 120 : speed); // a brief slower start
-          } else {
-            el.classList.remove("type-cursor");
-            localStorage.setItem(key, "1");
-          }
-        }
+                    <div class="timeline" role="list">
+                        <div class="t-item" role="listitem" tabindex="0">
+                            <div class="t-dot" aria-hidden="true"></div>
+                            <div class="t-card">
+                                <p class="t-role">
+                                    Junior Software Developer · The Training Associates
+                                </p>
+                                <p class="t-meta">Jul 2025 — Present · Marlborough, MA</p>
+                                <ul class="t-list">
+                                    <li>
+                                        Shipped UI fixes and feature toggles in a Microsoft-stack
+                                        codebase (C#, .NET 4.8.1, SQL Server).
+                                    </li>
+                                    <li>
+                                        Improved banner logic to remove flicker via tri-state
+                                        rendering.
+                                    </li>
+                                    <li>
+                                        Collaborated on DB change tracking and deployment workflows.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
-        setTimeout(step, 300);
-      })();
-    </script>
-  </body>
+                        <div class="t-item" role="listitem" tabindex="0">
+                            <div class="t-dot" aria-hidden="true"></div>
+                            <div class="t-card">
+                                <p class="t-role">Software Engineering Intern · GDMS</p>
+                                <p class="t-meta">2024 — 2025</p>
+                                <ul class="t-list">
+                                    <li>
+                                        Built tooling in Python/C++ and delivered secure internal
+                                        apps.
+                                    </li>
+                                    <li>
+                                        Authored docs and automated tests to stabilize releases.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="t-item" role="listitem" tabindex="0">
+                            <div class="t-dot" aria-hidden="true"></div>
+                            <div class="t-card">
+                                <p class="t-role">B.S. Computer Engineering · UMass Amherst</p>
+                                <p class="t-meta">2019 — 2023</p>
+                                <ul class="t-list">
+                                    <li>
+                                        Strong foundation in algorithms, systems, and UI
+                                        engineering.
+                                    </li>
+                                    <li>Led side projects focused on performance and UX.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills -->
+            <section id="skills">
+                <div class="container">
+                    <h2 class="section-title">Skills</h2>
+                    <p class="section-subtitle">Capabilities first; tools second.</p>
+                    <div class="skills">
+                        <div class="card skill"><span class="dot"></span>Frontend architecture</div>
+                        <div class="card skill"><span class="dot"></span>Performance budgets</div>
+                        <div class="card skill"><span class="dot"></span>Accessibility (WCAG)</div>
+                        <div class="card skill"><span class="dot"></span>Clean Architecture</div>
+                        <div class="card skill"><span class="dot"></span>TypeScript, React</div>
+                        <div class="card skill"><span class="dot"></span>C#, .NET</div>
+                        <div class="card skill"><span class="dot"></span>SQL Server</div>
+                        <div class="card skill"><span class="dot"></span>Node/Express</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section id="contact">
+                <div class="container">
+                    <h2 class="section-title">Get in touch</h2>
+                    <p class="section-subtitle">Open to collaborations and new opportunities.</p>
+                    <div class="card contact-card">
+                        <div>
+                            <strong>Email</strong><br />
+                            <a href="mailto:huy@example.com">huy@example.com</a>
+                        </div>
+                        <div>
+                            <strong>Links</strong><br />
+                            <a href="#">GitHub</a> · <a href="#">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">© <span id="year"></span> Huy Tran</div>
+        </footer>
+
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+
+            (function () {
+                var heroTitleTyped = document.getElementById('typed');
+                if (!heroTitleTyped) return;
+
+                var full = heroTitleTyped.dataset.text || '';
+                var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+                if (reduce) {
+                    heroTitleTyped.textContent = full;
+                    heroTitleTyped.classList.remove('type-cursor');
+                    return;
+                }
+
+                var i = 0;
+                var speed = 120;
+                heroTitleTyped.textContent = '';
+
+                function step() {
+                    i++;
+                    heroTitleTyped.textContent = full.slice(0, i);
+                    if (i < full.length) {
+                        setTimeout(step, speed);
+                    } else {
+                        heroTitleTyped.classList.remove('type-cursor');
+                    }
+                }
+                setTimeout(step, 300);
+            })();
+
+            // Particle background
+            (function () {
+                const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+                if (reduceMotion) return;
+
+                const canvas = document.getElementById('particles-bg');
+                const ctx = canvas.getContext('2d');
+                let w = window.innerWidth;
+                let h = window.innerHeight;
+                canvas.width = w;
+                canvas.height = h;
+
+                // Fewer, dimmer, colored particles
+                const PARTICLE_COUNT = Math.floor((w * h) / 30000); // much fewer
+                const particles = [];
+                const colors = [
+                    'rgba(180,200,255,0.25)',
+                    'rgba(255,200,180,0.18)',
+                    'rgba(180,255,200,0.22)',
+                    'rgba(200,180,255,0.20)',
+                    'rgba(255,255,200,0.15)',
+                ];
+
+                function random(min, max) {
+                    return Math.random() * (max - min) + min;
+                }
+
+                for (let i = 0; i < PARTICLE_COUNT; i++) {
+                    particles.push({
+                        x: random(0, w),
+                        y: random(0, h),
+                        r: random(1.2, 2.2),
+                        dx: random(-0.25, 0.25),
+                        dy: random(-0.25, 0.25),
+                        color: colors[Math.floor(random(0, colors.length))],
+                    });
+                }
+
+                let mouse = { x: -1000, y: -1000 };
+
+                canvas.addEventListener('mousemove', function (e) {
+                    mouse.x = e.clientX;
+                    mouse.y = e.clientY;
+                });
+                canvas.addEventListener('mouseleave', function () {
+                    mouse.x = -1000;
+                    mouse.y = -1000;
+                });
+
+                function draw() {
+                    ctx.clearRect(0, 0, w, h);
+                    for (const p of particles) {
+                        ctx.save();
+                        ctx.beginPath();
+                        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                        ctx.fillStyle = p.color;
+                        ctx.shadowColor = p.color;
+                        ctx.shadowBlur = 4;
+                        ctx.fill();
+                        ctx.restore();
+                    }
+                }
+
+                function update() {
+                    for (const p of particles) {
+                        // Mouse avoidance
+                        const dist = Math.hypot(mouse.x - p.x, mouse.y - p.y);
+                        if (dist < 80) {
+                            // Push away from mouse
+                            const angle = Math.atan2(p.y - mouse.y, p.x - mouse.x);
+                            p.x += Math.cos(angle) * 2;
+                            p.y += Math.sin(angle) * 2;
+                        } else {
+                            p.x += p.dx;
+                            p.y += p.dy;
+                        }
+
+                        // Bounce off edges
+                        if (p.x < 0 || p.x > w) p.dx *= -1;
+                        if (p.y < 0 || p.y > h) p.dy *= -1;
+                    }
+                }
+
+                function animate() {
+                    update();
+                    draw();
+                    requestAnimationFrame(animate);
+                }
+
+                window.addEventListener('resize', () => {
+                    w = window.innerWidth;
+                    h = window.innerHeight;
+                    canvas.width = w;
+                    canvas.height = h;
+                });
+
+                animate();
+            })();
+        </script>
+    </body>
 </html>
