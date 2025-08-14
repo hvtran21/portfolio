@@ -1399,7 +1399,7 @@ body.is-preload #bg:before {
 #header .logo {
     width: 5.5rem;
     height: 5.5rem;
-    line-height: 5.5rem;
+    /* line-height: 5.5rem; */
     border: solid 1px #ffffff;
     border-radius: 100%;
     display: flex;
@@ -1760,4 +1760,22 @@ body.is-article-visible #footer {
 
 body.is-preload #footer {
     opacity: 0;
+}
+
+@keyframes focus-in-expand {0% { letter-spacing: -0.5em; filter: blur(12px); opacity: 0; } 100% { filter: blur(0px); opacity: 1;} }
+
+.focus-in-expand-normal { 
+    animation: focus-in-expand 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s 1 normal both; 
+}
+
+@keyframes text-focus-in {0% { filter: blur(12px); opacity: 0; } 100% { filter: blur(0px); opacity: 1;} }
+
+.text-focus-in-normal { 
+    animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0s 1 normal both; 
+}
+
+@keyframes focus-in-expand-fwd {0% { letter-spacing: -0.5em; transform: translateZ(-800px); filter: blur(12px); opacity: 0; } 100% { transform: translateZ(0); filter: blur(0); opacity: 1;} }
+
+.focus-in-expand-fwd-normal { 
+    animation: focus-in-expand-fwd 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s 1 normal both; 
 }
