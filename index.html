@@ -29,13 +29,13 @@
 
 				<!-- Header -->
 					<header id="header">
-						<div class="logo">
-							<span class="icon fa-gem"></span>
-						</div>
+							<div id="logo" class="logo">
+								<span class="icon fa-gem"></span>
+							</div>
 						<div class="content">
 							<div class="inner">
 								<h1>Huy Tran</h1>
-								<p>Eager developer. <br /> Motivated engineer.</p>
+								<p>Software Developer</p>
 							</div>
 						</div>
 						<nav>
@@ -403,6 +403,20 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				const logo = document.getElementById('logo');
+				var hide = 1;
+
+				logo.addEventListener('click', () => {
+					if (hide === 1) {
+						logo.innerHTML = '<img src="images/my-dog.jpg" alt="My Dog" style="width: 117px; height: 117px; border-radius: 100%">';
+						hide = 0;
+					} else {
+						logo.innerHTML = '<span class="icon fa-gem"></span>';
+						hide = 1;
+					}
+				});
+			</script>
 
 	</body>
 </html>
