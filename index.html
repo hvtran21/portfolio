@@ -1,408 +1,295 @@
-<!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Huy Tran — Software Developer</title>
+    <meta
+      name="description"
+      content="Minimal, motion‑focused portfolio for Huy Tran — Software Developer."
+    />
+    <link rel="stylesheet" href="./assets/css/custom.css" />
+  </head>
+  <body>
+    <header class="container" style="padding: 20px 0 0">
+      <nav
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 12px;
+          padding: 10px 0;
+        "
+      >
+        <a href="#" style="font-weight: 800; letter-spacing: 0.4px">Huy Tran</a>
+        <div style="display: flex; gap: 14px; align-items: center">
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
 
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-X38DETME35"></script>
-		<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero-wrap">
+          <div class="eyebrow">Software Developer</div>
+          <h1 class="hero-title">
+            <span
+              id="typed"
+              class="type-cursor"
+              data-text="Hey there, I’m Huy."
+            ></span>
+          </h1>
+          <p class="hero-lede">
+            I build fast, accessible interfaces and pragmatic backends. I care
+            about clean architecture, performance budgets, and motion that
+            guides—not distracts.
+          </p>
+          <div class="cta">
+            <a class="btn btn-primary" href="#projects">See projects</a>
+            <a class="btn" href="#contact">Get in touch</a>
+          </div>
+        </div>
+      </section>
 
-		gtag('config', 'G-X38DETME35');
-		</script>
+      <!-- Projects -->
+      <section id="projects">
+        <div class="container">
+          <h2 class="section-title">Selected Projects</h2>
+          <p class="section-subtitle">
+            Case studies that show impact, with clean code and measurable
+            results.
+          </p>
 
-		<title>Huy Tran</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/mainv2.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+          <div class="projects-grid">
+            <article class="card project">
+              <div class="project-cover"></div>
+              <div class="project-body">
+                <h3 class="project-title">Tech News App</h3>
+                <div class="project-meta">
+                  React Native · SQLite · Node/Express
+                </div>
+                <p>
+                  Offline-first news reader with AI summaries and a local sync
+                  engine. Achieved <strong>~98 Lighthouse PWA</strong> score on
+                  mobile.
+                </p>
+                <div class="project-actions">
+                  <a class="tag" href="#">Case study</a>
+                  <a class="tag" href="#">GitHub</a>
+                </div>
+              </div>
+            </article>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+            <article class="card project">
+              <div class="project-cover"></div>
+              <div class="project-body">
+                <h3 class="project-title">Snap Budget</h3>
+                <div class="project-meta">C# · ASP.NET · OCR</div>
+                <p>
+                  Receipt‑scanning budgeting tool. Reduced manual entry time by
+                  <strong>70%</strong> via background parsing and category
+                  rules.
+                </p>
+                <div class="project-actions">
+                  <a class="tag" href="#">Case study</a>
+                  <a class="tag" href="#">GitHub</a>
+                </div>
+              </div>
+            </article>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="icon fa-gem"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Huy Tran</h1>
-								<p>Eager developer. <br /> Motivated engineer.</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<!-- <li><a href="#intro">Intro</a></li> -->
-								<li><a href="#about">About</a></li>
-								<li><a href="#experience">Work</a></li>
-								<li><a href="#projects">Projects</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
+            <article class="card project">
+              <div class="project-cover"></div>
+              <div class="project-body">
+                <h3 class="project-title">Portfolio Engine</h3>
+                <div class="project-meta">HTML · CSS · MDX‑like content</div>
+                <p>
+                  Static‑first portfolio with content slots and a11y baked‑in.
+                  Subtle motion, strong typography, and zero JS on the landing
+                  page.
+                </p>
+                <div class="project-actions">
+                  <a class="tag" href="#">Case study</a>
+                  <a class="tag" href="#">GitHub</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
 
-				<!-- Main -->
-					<div id="main">
+      <!-- Experience Timeline -->
+      <section id="experience">
+        <div class="container">
+          <h2 class="section-title">Experience</h2>
+          <p class="section-subtitle">
+            A concise timeline—hover or tab into items to see details.
+          </p>
 
-						<!-- Intro -->
-							<article id="projects">
-								<h2 class="major">Projects</h2>
-								<h3><a href="https://github.com/hvtran21/tldr_newsapp">Tech News App</a><br />May 2025 - Present</h3>
-								<p>
-									I'm actively building a React Native mobile application leveraging Expo, that allows users to read any kinds of tech news in a TLDR
-									format. At, <a href="https://tldr.tech">tldr.tech</a> you subscribe via email, I did this but ended up with a flooded inbox
-									and made it difficult to find important emails. Utiilzing my existing web application experience and my motivation to learn more about mobile/web application,
-									I wanted to build an app from the ground up.
-									
-									<p>In this short time, I've designed an entire backend leveraging PostgreSQL as my database, and created all of the
-										API endpoints for fetch data for initial processing, and responding to the client device when requesting data.  </p>
-										<p><b>Tech stack:</b> React, React Native, Expo, TypeScript, Node.js, Express.js, PostgreSQL</p>
-									<span class="image left"> <img src="images/welcome_sc.png"/> </span>
-									<span class="image right"> <img src="images/homepage_sc.png"/> </span>
-								</p>
-							</article>
+          <div class="timeline" role="list">
+            <div class="t-item" role="listitem" tabindex="0">
+              <div class="t-dot" aria-hidden="true"></div>
+              <div class="t-card">
+                <p class="t-role">
+                  Junior Software Developer · The Training Associates
+                </p>
+                <p class="t-meta">Jul 2025 — Present · Marlborough, MA</p>
+                <ul class="t-list">
+                  <li>
+                    Shipped UI fixes and feature toggles in a Microsoft‑stack
+                    codebase (C#, .NET 4.8.1, SQL Server).
+                  </li>
+                  <li>
+                    Improved banner logic to remove flicker via tri‑state
+                    rendering.
+                  </li>
+                  <li>
+                    Collaborated on DB change tracking and deployment workflows.
+                  </li>
+                </ul>
+              </div>
+            </div>
 
-						<!-- experience -->
-							<article id="experience">
-								<h2 class="major">work</h2>
-								<h3>General Dynamics Mission Systems <br />May 2025 - August 2025 </h3>
-								<h4>Software Engineering Intern | Dev Ops <br />Dedham, MA</h4>
-								<span class="image main"><img src="images/gdms.jpg" alt="Huy Tran" /></span>
-								<p>During my Summer 2024 full-time internship General Dynamics Mission Systems, I optimized the <a href="https://gdmissionsystems.com/products/multilevel-security/trumls">truMLS Open Platform Solution </a>
-									by refactoring Ansible playbooks defined by company best practices. </p>
-									<p>I reduced total lines of YAML code by 50%, introducing a solution that optimized reusability and allowed increased
-										maintainability for customers and developers alike to deploy their services with ease. I particpated in daily stand up calls in a remote Agile team, performing weekly demonstrations to showcase progress 
-										and technical advances.
-									</p>
-									<p>During test integration, I managed, configured, and deployed AWS EC2 instances, loading custom Linux-OS images
-										and solving network complexities by correcting configuration code for modern systems and applications.
-									</p>
-									<p><b>Tech & Languages:</b> YAML, Red Hat, VMWare Workstation Pro, Python, Gitlab CI/CD, AWS EC2</p>
+            <div class="t-item" role="listitem" tabindex="0">
+              <div class="t-dot" aria-hidden="true"></div>
+              <div class="t-card">
+                <p class="t-role">Software Engineering Intern · GDMS</p>
+                <p class="t-meta">2024 — 2025</p>
+                <ul class="t-list">
+                  <li>
+                    Built tooling in Python/C++ and delivered secure internal
+                    apps.
+                  </li>
+                  <li>
+                    Authored docs and automated tests to stabilize releases.
+                  </li>
+                </ul>
+              </div>
+            </div>
 
-								<h3>General Dynamics Mission Systems <br /> September 2024 - May 2025 </h3>
-								<h4>Software Engineering Intern | Full Stack <br /> Dedham, MA </h4>
-								<span class="image main"><img src="images/OpneCVE.jpg" alt="Huy Tran" /></span>
+            <div class="t-item" role="listitem" tabindex="0">
+              <div class="t-dot" aria-hidden="true"></div>
+              <div class="t-card">
+                <p class="t-role">B.S. Computer Engineering · UMass Amherst</p>
+                <p class="t-meta">2019 — 2023</p>
+                <ul class="t-list">
+                  <li>
+                    Strong foundation in algorithms, systems, and UI
+                    engineering.
+                  </li>
+                  <li>Led side projects focused on performance and UX.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-								<p>The following year, I continued my support at General Dynamics Mission Systems where I worked part-time as a full stack engineer balancing both school and work. During this time, I supported an internal
-								fork of <a href="https://github.com/opencve/opencve">OpenCVE</a> where I independently engineered and developed full stack features and solutions based off 
-								customer needs through Jira tickets. </p>
+      <!-- Skills -->
+      <section id="skills">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <p class="section-subtitle">Capabilities first; tools second.</p>
+          <div class="skills">
+            <div class="card skill">
+              <span class="dot"></span>Frontend architecture
+            </div>
+            <div class="card skill">
+              <span class="dot"></span>Performance budgets
+            </div>
+            <div class="card skill">
+              <span class="dot"></span>Accessibility (WCAG)
+            </div>
+            <div class="card skill">
+              <span class="dot"></span>Clean Architecture
+            </div>
+            <div class="card skill">
+              <span class="dot"></span>TypeScript, React
+            </div>
+            <div class="card skill"><span class="dot"></span>C#, .NET</div>
+            <div class="card skill"><span class="dot"></span>SQL Server</div>
+            <div class="card skill"><span class="dot"></span>Node/Express</div>
+          </div>
+        </div>
+      </section>
 
-								<p>I made contributions to allow vulnerability data to be retrieved and update an offline instance of OpenCVE, to support users in an isolated network.
-									This consisted of engineering an algorithm to be executed as a command to retrieve data in a convenient and user-friendly manner. In addition to this, I had to 
-									ensure the database update would be a seamless, where I modified networking calls to local file I/O, and reconfigured a Celery worker
-									to recognize new local data and insert it.
-								</p>
-								
-								<p>The new features I implemented always included creating unit and configuration tests leveraging Pytest, ensuring high quality code and using
-									Flake8 to enforce consistent formatting. With the addition of new tests, I managed and configured GitLab CI/CD pipelines to further ensure
-									code stability.
-								</p>
-								<p>I optimized and updated old Docker scripts, troubleshooting Docker containers via CLI, and creating thorough
-									documentation and instructions to ensure a successful deployment and configuration set up for users. </p>
+      <!-- Contact -->
+      <section id="contact">
+        <div class="container">
+          <h2 class="section-title">Get in touch</h2>
+          <p class="section-subtitle">
+            Open to collaborations and new opportunities.
+          </p>
+          <div
+            class="card"
+            style="
+              padding: 18px;
+              display: flex;
+              gap: 14px;
+              flex-wrap: wrap;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <div>
+              <strong>Email</strong><br />
+              <a href="mailto:huy@example.com">huy@example.com</a>
+            </div>
+            <div>
+              <strong>Links</strong><br />
+              <a href="#">GitHub</a> · <a href="#">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-									<p><b>Tech stack:</b> Git, Python, PostgreSQL, HTML/CSS, JavaScript, Flask, Celery, Redis, Docker, Pandas, NumPy
-									, SQLAlchemy</p>
+    <footer>
+      <div class="container">© <span id="year"></span> Huy Tran</div>
+    </footer>
 
+    <script>
+      // Update year and run first-load typing effect (respects reduced motion).
+      document.getElementById("year").textContent = new Date().getFullYear();
 
-							</article>
+      (function () {
+        var key = "seenTypingV1";
+        var el = document.getElementById("typed");
+        if (!el) return;
+        var full = el.getAttribute("data-text") || "";
+        var reduce = window.matchMedia(
+          "(prefers-reduced-motion: reduce)"
+        ).matches;
 
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/portrait.jpeg" alt="Huy Tran" /></span>
-								<p>I recently graduated from UMass Amherst with a Bachelor of Science in Computer Engineering, earning a <b>GPA of 3.63</b>. My coursework focused on software development and engineering, including classes in computer architecture, operating systems, security, networking, and algorithms.</p>
+        function showText() {
+          el.textContent = full;
+          el.classList.remove("type-cursor"); // remove caret after reveal
+        }
 
-								<p>I'm a motivated and curious developer with a strong interest in building mobile and web applications across the full stack. During my senior year, I independently contributed to an internal fork of <a href="https://github.com/opencve/opencve">OpenCVE</a>, designing and implementing full stack solutions to support internal users.</p>
+        if (localStorage.getItem(key) || reduce) {
+          showText();
+          return;
+        }
 
-								<p>To continue sharpening my skills, I'm currently building a mobile application, using it as a learning platform to deepen my full stack expertise and explore modern development workflows.</p>
+        var i = 0;
+        var speed = 28; // ms per char after the first few
 
-								<p>I'm detail orientated, where I believe code quality and consistency is vital to the software development life cycle, always
-									looking for more efficient and effective solutions and take pride in clean code. </p>
+        function step() {
+          i++;
+          el.textContent = full.slice(0, i);
+          if (i < full.length) {
+            setTimeout(step, i < 8 ? 120 : speed); // a brief slower start
+          } else {
+            el.classList.remove("type-cursor");
+            localStorage.setItem(key, "1");
+          }
+        }
 
-								<p><b>Tools & Languages:</b> Python, C/C++, React Native, Expo, JavaScript, TypeScript, PostgreSQL, RISC-V, Wireshark, MATLAB, KiCad (PCB design), Excel</p>
-							</article>
-
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major" >Contact</h2>
-								<ul class="icons" >
-									<li><a href="https://www.linkedin.com/in/huy-tran-014118268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-									<li><a href="https://www.facebook.com/profile.php?id=100066847574313&mibextid=LQQJ4d" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="https://www.instagram.com/huy.tran21?igsh=djc4eDBhYXkyZDFp&utm_source=qr" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="https://github.com/hvtran21" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="mailto:hvtran@umass.edu" class="icon fa-envelope"><span class="label">Mail</span></a></li>
-								</ul>
-							</article>
-
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
-
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
-
-								<section>
-									<h3 class="major">Lists</h3>
-
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
-
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
-
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-
-							</article>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; Huy Tran | all rights reserved.</p>
-					</footer>
-
-			</div>
-
-		<!-- BG -->
-			<div id="bg"></div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+        setTimeout(step, 300);
+      })();
+    </script>
+  </body>
 </html>
