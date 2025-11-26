@@ -57,18 +57,17 @@
 							<article id="projects">
 								<h2 class="major">Projects</h2>
 								<h3><a href="https://github.com/hvtran21/tldr_newsapp">Tech News App</a><br />May 2025 - October 2025</h3>
-								<p>
-									I'm actively building a React Native mobile application leveraging Expo, that allows users to read any kinds of tech news in a TLDR
-									format. At, <a href="https://tldr.tech">tldr.tech</a> you subscribe via email, I did this but ended up with a flooded inbox
-									and made it difficult to find important emails. Utiilzing my existing web application experience and my motivation to learn more about mobile/web application,
-									I wanted to build an app from the ground up.
-									
-									<p>In this short time, I've designed an entire backend leveraging PostgreSQL as my database, and created all of the
-										API endpoints for fetch data for initial processing, and responding to the client device when requesting data.  </p>
-										<p><b>Tech stack:</b> React, React Native, Expo, TypeScript, Node.js, Express.js, PostgreSQL</p>
-									<span class="image left"> <img src="images/welcome_sc.png"/> </span>
-									<span class="image right"> <img src="images/homepage_sc.png"/> </span>
-								</p>
+								<p>I built a cross-platform mobile app that lets users browse and save tech news without any account required. The idea came from my frustration with <a href="https://tldr.tech">TLDR newsletter</a>—I loved the curated tech content, but email subscriptions flooded my inbox and made it hard to find important messages. I wanted a cleaner solution that I could personalize and use as a learning platform for mobile development.</p>
+								
+								<p>On the frontend, I built the app with React Native and Expo, implementing features like genre-based filtering (AI, cybersecurity, gaming, etc.), article bookmarking, and offline reading using SQLite. I focused heavily on UX—adding pull-to-refresh, smooth animations, and a first-launch flow that lets users pick their interests before seeing any content. The app also includes a modal for quick actions like opening articles in a browser or reporting issues.</p>
+								
+								<p>The backend is a Node.js/Express API with PostgreSQL that aggregates articles from NewsAPI, handles batch insertion with deduplication, and serves filtered content based on user preferences. I designed RESTful endpoints for fetching articles, removing old entries, and triggering updates. The system initializes itself on startup, populating the database with articles across all genres and categories, and handles errors gracefully when API rate limits or network issues occur.</p>
+								
+								<p>While I've paused active development to focus on my current role, I have plans to take this project further—adding features like push notifications for trending topics, social sharing, and potentially publishing it to app stores. This project was a deep dive into full stack mobile development, teaching me how to think about offline-first design, data synchronization, and creating smooth user experiences on mobile devices.</p>
+								
+								<p><b>Tech stack:</b> React Native, Expo, TypeScript, SQLite, Node.js, Express, PostgreSQL, pg-promise, NewsAPI, Reanimated</p>
+								<span class="image left"> <img src="images/welcome_sc.png"/> </span>
+								<span class="image right"> <img src="images/homepage_sc.png"/> </span>
 							</article>
 
 						<!-- experience -->
@@ -83,7 +82,7 @@
 								
 								<p>My work spans both the customer-facing web application and internal tools. On the web side, I've built features that cut client-contractor hiring time by 20%, directly improving the user experience for thousands of active users. I've also developed WinForms desktop applications using Entity Framework and DevExpress that automate data workflows, reducing manual processing time by 10-20% for our business teams.</p>
 								
-								<p>Working here has deepened my understanding of professional software development—from participating in code reviews with senior engineers to implementing backend features following CQRS and Clean Architecture patterns. I've learned to balance rapid feature delivery with code quality, ensuring production stability while shipping improvements that matter to users.</p>
+								<p>Working here has deepened my understanding of professional software development—from participating in code reviews with senior developers to implementing backend features following CQRS and Clean Architecture patterns. I've learned to balance rapid feature delivery with code quality, ensuring production stability while shipping improvements that matter to users.</p>
 								
 								<p><b>Tech stack:</b> React.js, C#/.NET, ASP.NET, SQL Server, WinForms, Entity Framework, DevExpress, Azure, GitHub Actions</p>
 
